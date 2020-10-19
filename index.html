@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Универсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail)</title>
+</head>
+
+<body>
+	<h1>Forma отправки</h1>
+	<form>
+		<!-- Hidden Required  Fields -->
+		<input type="hidden" name="project_name" value="Мой сайт">
+		<input type="hidden" name="admin_email" value="ck30113@towaryshop.ru">
+		<input type="hidden" name="form_subject" value="Лендинг - заявка с верхней формы">
+		<!-- END Hidden Required  Fields -->
+
+		<input type="text" name="Имя: " placeholder="You Name..." required><br>
+		<input type="text" name="E-mail: " placeholder="You E-mail..." required><br>
+		<input type="text" name="Телефон: " placeholder="You Phone"><br>
+		<button>send</button>
+	</form>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
